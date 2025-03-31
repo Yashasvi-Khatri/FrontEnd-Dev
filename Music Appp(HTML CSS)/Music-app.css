@@ -1,0 +1,40 @@
+#structure {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background: linear-gradient(#0d45e0, #1e045b);
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+#horizontal-list{
+    display:flex;
+    justify-content:space-between;
+}
+
+#Queue{
+    position: relative;
+    float: right;
+    border: 2px solid #003B62;
+    font-family: verdana;
+    background-color: #B5CFE0;
+    padding-left: 10px;
+    align-self: right;
+}
+.horizontal-list{
+    font-weight: 100;
+    color:rgb(184, 28, 28);
+
+}
+#singers{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+#creators{
+    flex-wrap: wrap;
+}
+
